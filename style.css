@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(32, 6, 59);
+    color: white;
+}
+
+.hero{
+    margin: 120px 10px 50px 10px;
+    border: 1px black solid;
+    background-image: url("./media/Sala.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;}
+    
+    
+    .logo{height: 50px;}
+    
+    .custom-form{
+        display: flex;
+        background-color:rgb(33, 37, 41);
+        padding: 20px;
+        justify-content: center;
+        
+    }
+    
+    
+    .custom-btn{margin-left: 10px;}
+    
+    label{margin-right: 10px;
+        margin-left: 10px;}
+        
+        footer{background-color: rgb(33, 37, 41);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 10px;
+            
+        }
+        
+        .custom-social{display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        svg{margin-right: 10px;}
+        
+        @media screen and (max-width: 600px) {
+            
+            .custom-form{
+                flex-direction: column;
+            }
+            
+            .custom-btn{
+                margin-top: 10px;
+            }
+            
+            label{text-align: center;}
+            
+        }
+        
+        
