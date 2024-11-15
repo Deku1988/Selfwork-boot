@@ -21,7 +21,7 @@ body{
     padding: 5%;}
     
     
-    .logo{height: 50px;}
+    .logo{height: 80px;}
     
     .custom-form{
         display: flex;
@@ -51,8 +51,24 @@ body{
             justify-content: center;
         }
         svg{margin-right: 10px;}
+
+        .card{
+            background:rgb(33, 37, 41);
+            color: white; 
+            transform: 0.4s; 
+        }
+
         
+
+        .custom-carousel{height: 400px;}
+
+        .FAQ{background-color:rgb(33, 37, 41);
+            color: white;
+        }
+
+
         @media screen and (max-width: 600px) {
+
             
             .custom-form{
                 flex-direction: column;
@@ -65,5 +81,16 @@ body{
             label{text-align: center;}
             
         }
+
+        @media screen and (min-width: 600px) {
+
+        .card:hover{
+            scale: 1.1;
+
+        } 
+    }
         
+        
+        
+
         
